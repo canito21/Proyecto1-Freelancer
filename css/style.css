@@ -1,4 +1,24 @@
-h1 {
+:root {
+   --blanco: #ffffff;
+   --oscuro: #212121;
+   --primario: #ffc107;
+   --segundario: #0097a7;
+   --gris: #757575;
+}
+
+
+html{
+   font-size: 62.5%;
+}
+body{
+   font-size: 16px;/*10 px = a 1 rem*/
+   font-family: 'Krub', sans-serif;
+}
+.titulo{
    text-align: center;
-   color: red;
+   font-size: 3.8rem;
+   
+}
+span{
+   font-size: 2rem;
 }
